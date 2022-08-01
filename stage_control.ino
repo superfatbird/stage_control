@@ -2,7 +2,8 @@
 * This is an arduino script to use wheelencoder as a stage controller. 
 * The controller could switch between different axis, x,y,z,rotation. 
 * The center button is used to switch between coarse and fine motion of the stage.
-*
+* MIT License
+* Copyright(c) [2022] [Dapeng]
 **********************************************************************/
 
 #include <Adafruit_NeoPixel.h>

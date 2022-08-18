@@ -5,7 +5,12 @@ The controller mcu could be Feather BLE 32u4 or arduino (with Arduino IDE and .i
 Another controller could be a Feather M0 (with circuitpython implementation). 
 The computer end software to simulate stage behavior is python.
 
-### ref links:
+### Code description
+"realsimulator_2ndTry.py" is the python script to animate the stage motion. Four points will be plot in a box. By rotating the encoder, one of them will move accordingly. Four buttons at the outside of the encoder (left, up, right, down) can enable axis for x, y, z and rotation, switching between different axis. The button in the center could be used to switch the fine/coarse movements of the points.
+
+"serialresponse.py" is the python script to test if serial message from the MCU could be used and responded.
+
+### Ref links:
 - 1. [encoder datasheet](https://cdn-learn.adafruit.com/assets/assets/000/104/942/original/tsw.pdf?1633105183)
 ### Photo of the controller
 <img src="IMG_2930.JPG" height="300"/></a>
